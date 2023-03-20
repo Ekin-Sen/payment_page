@@ -1,0 +1,17 @@
+body {
+    background: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.payment {
+    background: #FFFFFF;
+    width: 250px;
+    height: 300px;
+}
+
+label {
+    display: block;
+}
