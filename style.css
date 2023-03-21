@@ -37,3 +37,12 @@ label {
 .cnfrm {
     width: 200px;
 }
+
+div > input {
+    height: 30px;
+    width: 200px;
+    border: none;
+    background-color: #f5f5dc;
+    border-radius: 10px;
+    padding-left: 5px;
+}
