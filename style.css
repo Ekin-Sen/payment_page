@@ -46,3 +46,18 @@ div > input {
     border-radius: 10px;
     padding-left: 5px;
 }
+
+button {
+    font-size: 14px;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: 1px solid;
+    background-color: #000000;
+    color: #FFFFFF;
+}
+
+button:hover {
+    background-color: #FFFFFF;
+    color: #000000;
+    transition: 0.3s;
+}
