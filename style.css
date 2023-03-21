@@ -21,3 +21,11 @@ body {
 label {
     display: block;
 }
+
+.mt1 {
+    margin-top: 10px;
+}
+
+.mt2 {
+    margin-top: 5px;
+}
