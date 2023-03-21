@@ -9,30 +9,29 @@
 </head>
 <body>
     <div class="payment">
-        <h3>Pay by card</h3>
-        <div class="card_paypal">
-            <a href="payment_by_card.html"><button type="button">CARD</button></a>
-            <a href="payment_by_paypal.html"><button type="button">PAYPAL</button></a>
+        <div class="card_paypal mt1">
+            <a href="payment_by_card.html"><button type="button" class="crd_btn">CARD</button></a>
+            <a href="payment_by_paypal.html"><button type="button" class="crd_btn">PAYPAL</button></a>
         </div>
-        <div class="name">
-            <label for="name">Name on Card</label>
+        <div class="name mt2">
+            <label for="name"><strong>Name on Card</strong></label>
             <input type="text" placeholder="Enter name">
         </div>
-        <div class="card_nr">
-            <label for="card_nr">Card Number</label>
+        <div class="card_nr mt2">
+            <label for="card_nr"><strong>Card Number</strong></label>
             <input type="text" placeholder="0000 0000 0000 0000">
         </div>
-        <div class="date_cvv">
+        <div class="date_cvv mt2">
             <div class="expiration_date">
-                <label for="expiration_date">Expiration Date</label>
+                <label for="expiration_date"><strong>Expiration Date</strong></label>
                 <input type="datetime" placeholder="12/27">
             </div>
-            <div class="cvv">
-                <label for="cvv">CVV</label>
+            <div class="cvv mt2">
+                <label for="cvv"><strong>CVV</strong></label>
                 <input type="text" placeholder="000">
             </div>
         </div>
-        <button type="submit">CONFIRM</button>
+        <button type="submit" class="mt1 cnfrm">CONFIRM</button>
     </div>
 </body>
 </html>
