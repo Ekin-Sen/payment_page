@@ -12,35 +12,36 @@ body {
 
 .payment {
     background: #FFFFFF;
-    width: 250px;
-    height: 300px;
+    width: 300px;
+    height: 370px;
     border-radius: 10px;
     text-align: center;
 }
 
 label {
     display: block;
+    color: #808080;
 }
 
 .mt1 {
-    margin-top: 10px;
+    margin-top: 20px;
 }
 
 .mt2 {
-    margin-top: 5px;
+    margin-top: 10px;
 }
 
 .crd_btn {
-    width: 100px;
+    width: 125px;
 }
 
 .cnfrm {
-    width: 200px;
+    width: 250px;
 }
 
 div > input {
     height: 30px;
-    width: 200px;
+    width: 250px;
     border: none;
     background-color: #f5f5dc;
     border-radius: 10px;
@@ -51,13 +52,13 @@ button {
     font-size: 14px;
     padding: 10px 10px;
     border-radius: 10px;
-    border: 1px solid;
-    background-color: #000000;
+    border: 1px solid #808080;
+    background-color: #808080;
     color: #FFFFFF;
 }
 
 button:hover {
     background-color: #FFFFFF;
-    color: #000000;
+    color: #808080;
     transition: 0.3s;
 }
